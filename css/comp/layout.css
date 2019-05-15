@@ -1,0 +1,33 @@
+.right-panel {
+    float:right;
+    width: 609px;
+    height: 100%;
+    box-shadow: 0px 21px 180px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-title {
+    margin-bottom: 72px;
+    font-family: 'Noto Sans KR Light';
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -4.3px;
+    text-align: left;
+    color: #000000;
+}
+
+.login {
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,49 @@
+<html lang="ko">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="description" content="🏛AI & Online Judge">
+    <meta property="og:title" content="🏛AI & Online Judge">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hjh010501.github.io/neis-counter">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:description" content="🏛AI & Online Judge">
+    <meta property="og:image" content="ogimage.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <link rel="stylesheet" type="text/css" href="css/init.css">
+    <title>🏛AI & Online Judge</title>
+</head>
+
+<body>
+    <div class="right-panel">
+        <div class="login">
+            <div class="panel-title">로그인</div>
+            <input type="input" class="aoj-textbox" id="login-id" placeholder="ID">
+            <input style="letter-spacing: .4px;" type="password" class="aoj-textbox" id="login-pw" placeholder="PW">
+            <input type="button" class="aoj-active-button" value="로그인">
+            <div style="color: #c7c7c7; text-align: center;" ><h4>또는 <span style="color: #2293f1; cursor: hand;" class="goregister">회원가입</span></h4></div>
+        </div>
+        <div style="display: none;" class="register">
+                <div class="panel-title">회원가입</div>
+                <input type="input" class="aoj-textbox" id="register-name" placeholder="NAME">
+                <input type="input" class="aoj-textbox" id="register-id" placeholder="ID">
+                <input style="letter-spacing: .4px;" type="password" class="aoj-textbox" id="register-pw" placeholder="PW">
+                <input style="letter-spacing: .4px;" type="password" class="aoj-textbox" id="register-re-pw" placeholder="Retype-PW">
+                <input type="button" class="aoj-active-button" value="회원가입">
+                <div style="color: #c7c7c7; text-align: center;"><h4>또는 <span style="color: #2293f1; cursor: hand;" class="gologin">로그인</span></h4></div>
+            </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://js.pusher.com/4.4/pusher.min.js"></script>
+<script src="js/anime.js"></script>
+
+<script>
+    $('.goregister').click(function () { $('.register').css('display', 'block');$('.login').css('display', 'none'); });
+    $('.gologin').click(function () { $('.login').css('display', 'block');$('.register').css('display', 'none'); });
+</script>
+</html>

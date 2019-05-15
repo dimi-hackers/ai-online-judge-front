@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://cdn.rawgit.com/kattergil/NotoSerifKR-Web/76eb9ebf/stylesheet/NotoSerif-Web.css);
+
+
+@font-face {
+    font-family: 'Noto Sans KR Light';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR Bold';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Noto Serif KR', serif;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://github.com/kattergil/NotoSerifKR-Web/blob/master/fonts/NotoSerifCJKkr-Regular-subset.woff2) format('woff2'),
+    url(https://github.com/kattergil/NotoSerifKR-Web/blob/master/fonts/NotoSerifCJKkr-Regular-subset.woff) format('woff'),
+    url(https://github.com/kattergil/NotoSerifKR-Web/blob/master/fonts/NotoSerifCJKkr-Regular-subset.otf) format('opentype');
+}
+
