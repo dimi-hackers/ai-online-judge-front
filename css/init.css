@@ -25,3 +25,11 @@ body {
 *:focus {
     outline: 0;
 }
+
+.logo {
+    background-image: url('./assets/AOJCI.svg');
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 20px;
+}
