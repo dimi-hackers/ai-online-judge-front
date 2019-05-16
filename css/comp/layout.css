@@ -49,5 +49,36 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(21,21,21,.4);
+    background-image: url('../assets/pat.png');
+    background-repeat: repeat;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    width: 1200px;
+    height: 750px;
+    box-shadow: 0px 21px 180px 0 rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -2.3px;
+    text-align: left;
+    color: #000000;
+    height: 45px;
+    box-shadow: 0px 35px 59px 0 rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    padding-left: 25px;
 }
