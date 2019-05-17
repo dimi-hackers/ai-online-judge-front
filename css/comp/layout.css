@@ -8,6 +8,7 @@
     justify-content: center;
     background: #ffffff;
     position: sticky;
+    position: -webkit-sticky;
 }
 
 .panel-title {
