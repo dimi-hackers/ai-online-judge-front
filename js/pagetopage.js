@@ -43,7 +43,7 @@ var toDetail = () => {
 
     anime({
         targets: '#'+pagestatus,
-        translateX: pagestatus=="court-list" ? -widthsize : widthsize,
+        translateX: -widthsize,
         duration: 1500,
         easing: 'easeInOutCubic',
         autoplay: true,
@@ -66,4 +66,39 @@ var toDetail = () => {
           },
     });
 
+}
+
+
+var openCommunity = () => {
+
+    anime({
+        targets: '#court-community',
+        opacity: 1,
+        duration: 1000,
+        easing: 'easeInOutCubic',
+        autoplay: true,
+        complete: function(anim) {
+            pagestatus = "court-community";
+        },
+        begin: function(anim) {
+            $('#court-community').css({'display': 'block'});
+        },
+    });
+
+
+}
+
+
+var closeCommunity = () => {
+    anime({
+        targets: '#court-community',
+        opacity: 0,
+        duration: 1000,
+        easing: 'easeInOutCubic',
+        autoplay: true,
+        complete: function(anim) {
+            $('#court-community').css({'display': 'none'});
+            pagestatus = "court-detail";
+        }
+    });
 }
