@@ -34,9 +34,8 @@
 @font-face {
     font-family: 'Noto Serif KR', serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     src: url(https://github.com/kattergil/NotoSerifKR-Web/blob/master/fonts/NotoSerifCJKkr-Regular-subset.woff2) format('woff2'),
     url(https://github.com/kattergil/NotoSerifKR-Web/blob/master/fonts/NotoSerifCJKkr-Regular-subset.woff) format('woff'),
     url(https://github.com/kattergil/NotoSerifKR-Web/blob/master/fonts/NotoSerifCJKkr-Regular-subset.otf) format('opentype');
 }
-

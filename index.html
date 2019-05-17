@@ -19,19 +19,50 @@
 
 <body>
     <!-- <div class="background"></div> -->
-    <div style="position: absolute; margin: 0 auto;left: 50%; margin-left: -32.5px; margin-top: 30px;" class="logo"></div>
+    <div style="position: absolute; margin: 0 auto; left: 50%; margin-left: -25px; margin-top: 40px;width: 50px; height: 50px;" class="logo"></div>
     <div class="app">
-        <div class="main">
+        <div id="court-list" class="main">
             <div class="main-title">재판장</div>
+            <div class="contents">
+                <div onClick="toDetail()" class="court court-1">
+                    <div class="court-title">사건 제목</div>
+                    <div class="court-content">윤석찬과 디미고 OOO 양과의 비밀연애 사건.... 윤석찬의 일방적
+                        사랑... OOO 양은 그가 누군지도 모른다... 혼자만의 착각인것인가? 
+                        아니면 어장관리인가? 이러지도 못하는데 저러지도 못하네
+                        그저 바라보며 ba-ba-ba-baby  매일 상상만 해 이름과.......윤석찬과 1학년 J양과의 비밀연애 사건.... 윤석찬의 일방적
+                        사랑... J양은 그가 누군지도 모른다... 혼자만의 착각인것인가? 
+                        아니면 어장관리인가? 이러지도 못하는데 저러지도 못하네
+                        그저 바라보며 ba-ba-ba-baby  매일 상상만 해 이름과.......
+                        사랑... J양은 그가 누군지도 모른다... 혼자만의 착각인것인가? 
+                        아니면 어장관리인가? 이러지도 못하는데 저러지도 못하네
+                        그저 바라보며 ba-ba-ba-baby  매일 상상만 해 이름과.......
+                        </div>
+                </div>
+            </div>
         </div>
+
+        <div id="court-detail" style="display: none;" class="main">
+            <div class="main-title">사건 제목</div>
+            <div class="contents">
+                <div class="court-detail-content">
+                사건내용...
+            </div>
+            <div class="court-table">
+                <div class="court-column court-detail-defendant">피고인: <b>윤석찬</b></div>
+                <div class="court-column court-detail-deadline">2019.05.16 ~ 2019.08.29 오후 6:00 까지</div>
+                <div class="court-column court-detail-delator">고소인: OOO</div>
+                <div class="court-column court-detail-count">투표인원: 294,847명</div>
+            </div>
+            <input type="button" style="width: 338px; height: 150px;" class="aoj-active-button" value="참관하기">
+        </div>
+
     </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://js.pusher.com/4.4/pusher.min.js"></script>
 <script src="js/anime.js"></script>
-
+<script src="js/pagetopage.js"></script>
 <script>
-    $('.goregister').click(function () { $('.register').css('display', 'block');$('.login').css('display', 'none'); });
-    $('.gologin').click(function () { $('.login').css('display', 'block');$('.register').css('display', 'none'); });
+
 </script>
 </html>

@@ -82,3 +82,7 @@
     padding: 15px;
     padding-left: 25px;
 }
+
+.contents {
+    height: calc(100% - 75px);
+}

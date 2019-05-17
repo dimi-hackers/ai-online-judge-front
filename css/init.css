@@ -3,6 +3,7 @@
 @import "comp/layout.css";
 @import "comp/button.css";
 @import "comp/textbox.css";
+@import "comp/court.css";
 
 html {
     font-family: 'Noto Serif KR', serif;
