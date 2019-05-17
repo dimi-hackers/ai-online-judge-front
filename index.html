@@ -20,6 +20,7 @@
 <body>
     <!-- <div class="background"></div> -->
     <div style="position: absolute; margin: 0 auto; left: 50%; margin-left: -25px; margin-top: 40px;width: 50px; height: 50px;" class="logo"></div>
+    
     <div class="app">
         <div id="court-list" class="main">
             <div class="main-title">재판장</div>
@@ -42,7 +43,7 @@
         </div>
 
         <div id="court-detail" style="display: none;" class="main">
-            <div class="main-title">사건 제목</div>
+            <div class="main-title"><div onClick="toList()" class="court-list-back"></div>사건 제목</div>
             <div class="contents">
                 <div class="court-detail-content">
                 사건내용...
