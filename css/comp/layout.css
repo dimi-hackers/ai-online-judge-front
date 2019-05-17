@@ -52,6 +52,23 @@
     position: absolute;
     background-image: url('../assets/pat.png');
     background-repeat: repeat;
+    color: #fff;
+}
+
+.line {
+    width: 200px;
+    height: 3px;
+    background-color: #fff;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.background-overlay > p {
+    width: 1000px;
+    font-family: 'Noto Sans KR Light';
+    font-size: 72px;
+    margin-left:100px;
+    letter-spacing: -4.3px;
 }
 
 .app {
